@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d38e613-b7c4-489a-ad5c-a8b4f1714d5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commandGC/CommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/newRation/NewRationTest.java" afterDir="false" />
+    <list default="true" id="8d38e613-b7c4-489a-ad5c-a8b4f1714d5a" name="Changes" comment="GC常用指令">
+      <change afterPath="$PROJECT_DIR$/src/main/java/escapeAnalysis/EscapeAnalysis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,10 +152,34 @@
       <workItem from="1676040437458" duration="3458000" />
       <workItem from="1676115436773" duration="3517000" />
       <workItem from="1676201491938" duration="2188000" />
+      <workItem from="1676252227050" duration="259000" />
     </task>
+    <task id="LOCAL-00001" summary="GC常用指令">
+      <created>1676252296742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676252296742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GC常用指令" />
+    <option name="LAST_COMMIT_MESSAGE" value="GC常用指令" />
   </component>
 </project>
