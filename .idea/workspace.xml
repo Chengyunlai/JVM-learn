@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d38e613-b7c4-489a-ad5c-a8b4f1714d5a" name="Changes" comment="逃逸分析">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stackAllocation/StackAllocation.java" afterDir="false" />
+    <list default="true" id="8d38e613-b7c4-489a-ad5c-a8b4f1714d5a" name="Changes" comment="测试开启逃逸分析和不开启逃逸分析；&#10;逃逸分析将未逃逸的对象在栈中创建，如果堆空间较小的话，不会发生GC">
+      <change afterPath="$PROJECT_DIR$/src/main/java/scalarReplace/ScalarReplace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StackAllocation">
-    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classLoader.ClassLoaderTest" />
-      <module name="JVM-learn" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ScalarReplace">
     <configuration name="HeapSpaceInitial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="heap.HeapSpaceInitial" />
       <module name="JVM-learn" />
@@ -84,6 +77,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="newRation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScalarReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scalarReplace.ScalarReplace" />
+      <module name="JVM-learn" />
+      <option name="VM_PARAMETERS" value="-XX:-EliminateAllocations" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scalarReplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,19 +127,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ScalarReplace" />
       <item itemvalue="Application.StackAllocation" />
       <item itemvalue="Application.NewRationTest" />
       <item itemvalue="Application.HeapSpaceInitial" />
-      <item itemvalue="Application.ClassLoaderTest" />
       <item itemvalue="Application.StackErrorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ScalarReplace" />
         <item itemvalue="Application.StackAllocation" />
         <item itemvalue="Application.NewRationTest" />
         <item itemvalue="Application.HeapSpaceInitial" />
         <item itemvalue="Application.StackErrorTest" />
-        <item itemvalue="Application.ClassLoaderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +160,7 @@
       <workItem from="1676040437458" duration="3458000" />
       <workItem from="1676115436773" duration="3517000" />
       <workItem from="1676201491938" duration="2188000" />
-      <workItem from="1676252227050" duration="1258000" />
+      <workItem from="1676252227050" duration="4118000" />
     </task>
     <task id="LOCAL-00001" summary="GC常用指令">
       <created>1676252296742</created>
@@ -169,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676252679563</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="测试开启逃逸分析和不开启逃逸分析；&#10;逃逸分析将未逃逸的对象在栈中创建，如果堆空间较小的话，不会发生GC">
+      <created>1676253733205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676253733205</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +203,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GC常用指令" />
     <MESSAGE value="逃逸分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="逃逸分析" />
+    <MESSAGE value="测试开启逃逸分析和不开启逃逸分析；&#10;逃逸分析将未逃逸的对象在栈中创建，如果堆空间较小的话，不会发生GC" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试开启逃逸分析和不开启逃逸分析；&#10;逃逸分析将未逃逸的对象在栈中创建，如果堆空间较小的话，不会发生GC" />
   </component>
 </project>
